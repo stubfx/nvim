@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 -- this is gonna be replaced by oil.
 -- vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-vim.cmd('language en_US')
+-- vim.cmd('language en_US')
 -- Bootstrap lazy.nvim (if not already done)
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not vim.loop.fs_stat(lazypath) then

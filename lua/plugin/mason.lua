@@ -65,17 +65,17 @@ return {
                 }
             }
 
-            lspconfig.pylsp.setup {
-                settings = {
-                    pylsp = {
-                        plugins = {
-                            pycodestyle = {
-                                enabled = true
-                            }
-                        }
-                    }
-                }
-            }
+            -- lspconfig.pylsp.setup {
+            --     settings = {
+            --         pylsp = {
+            --             plugins = {
+            --                 pycodestyle = {
+            --                     enabled = true
+            --                 }
+            --             }
+            --         }
+            --     }
+            -- }
 
             lspconfig.glsl_analyzer.setup{}
 

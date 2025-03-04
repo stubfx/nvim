@@ -5,7 +5,7 @@ return {
         config = function ()
             local configs = require("nvim-treesitter.configs")
             local install = require("nvim-treesitter.install")
-            install.compilers = {"zig"}
+            -- install.compilers = {"zig"}
 
             configs.setup({
                 -- yeah, don't do this.
